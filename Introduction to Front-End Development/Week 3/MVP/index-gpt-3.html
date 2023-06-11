@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+  <style>
+    /* Adjust the layout */
+    .problem-page {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .problem-description {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .code-editor {
+      flex: 1;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="problem-page">
+    <div class="problem-description">
+      <h1>Problem Title</h1>
+      <p>Problem description goes here...</p>
+      <h2>Example</h2>
+      <pre><code>Input: [1, 2, 3]
+Output: 6</code></pre>
+      <h2>Constraints</h2>
+      <ul>
+        <li>Constraint 1</li>
+        <li>Constraint 2</li>
+        <li>Constraint 3</li>
+      </ul>
+    </div>
+    <div class="code-editor">
+      <h2>Code Editor</h2>
+      <textarea class="mvp-code" rows="10" cols="50" placeholder="Enter your code here..."></textarea>
+      <button class="mvp-button">Run Code</button>
+    </div>
+  </div>
+</body>
+</html>
