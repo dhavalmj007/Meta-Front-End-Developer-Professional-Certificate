@@ -7,3 +7,11 @@
 .main-nav li {
     display: inline;
 }
+
+nav{
+    background-color: aliceblue;    
+}
+
+nav a{
+    margin-right: 20px;
+}
