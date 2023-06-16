@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Contact from './Contact';
 import { Link, Route, Routes } from 'react-router-dom';
@@ -14,7 +13,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Homepage />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
-
       </Routes>
     </div>
     
